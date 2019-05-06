@@ -1,4 +1,5 @@
 ## Instruction
+This is a RESTful web service that runs in a docker container display a collection of record a single record that the corresponds to an ID in JSON form.
 
 ### Install docker on your machine
     you need to create an account in order to download the software.
