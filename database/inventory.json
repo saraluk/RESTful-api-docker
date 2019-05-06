@@ -1,0 +1,36 @@
+{
+  "product1": {
+    "description": "Cat Toy Roller",
+    "partnumber": "AX12C101",
+    "price": "$35.99",
+    "id": 1
+  },
+
+  "product2": {
+    "description": "Kitty City Large Cat Bed",
+    "partnumber": "BY12E201",
+    "price": "$18.99",
+    "id": 2
+  },
+
+  "product3": {
+    "description": "Diet Dry Cat Food",
+    "partnumber": "CZ12D301",
+    "price": "$12.99",
+    "id": 3
+  },
+
+  "product4": {
+    "description": "Clumping Cat Litter",
+    "partnumber": "DX12U401",
+    "price": "$21.99",
+    "id": 4
+  },
+
+  "product5": {
+    "description": "Cat Scratcher Cardboard",
+    "partnumber": "TA12Q501",
+    "price": "$15.99",
+    "id": 5
+  }
+}
