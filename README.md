@@ -1,22 +1,18 @@
-## Available Scripts
+## Install docker
 
-In the project directory, you can run:
+Install docker on your machine, you need to create an account in order to download the software.
+Once installation is done, log in to your docker account
 
-### IMPORTANT! run `npm install` or `yarn install` before running `npm start` or `yarn start`
+### run `docker run hello-world` in terminal
 
-Installs all the necessary dependencies from package.json in order to run the app.
+### cd to the cloned repository
 
-### `npm start` or `yarn start`
+### run `docker build -t hello-world .`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### run `docker run -p 8090:8090 hello-world`
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+    Open [http://localhost:8090/inventory] to view collection of record.
+    Open [http://localhost:8090/inventory/id] (where id is 1 to 5) to view individual record by id
 
-### `npm run build` or `yarn build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
+    If port 8090 is already used, you will need to map with another avaiable port (try port 8099)
+    `docker run -p 8090:8099 hello-world`
