@@ -1,7 +1,8 @@
-## Install docker
+## Instruction
 
-Install docker on your machine, you need to create an account in order to download the software.
-Once installation is done, log in to your docker account
+### Install docker on your machine
+    you need to create an account in order to download the software.
+    Once installation is done, log in to your docker account
 
 ### run `docker run hello-world` in terminal
 
