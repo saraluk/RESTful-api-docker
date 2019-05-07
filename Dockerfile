@@ -4,7 +4,7 @@ FROM node:7
 # Set the working directory to /app
 WORKDIR /app
 
-# copy package.json to app dir
+# Copy the current directory contents into the container at /app
 COPY package.json /app
 
 # Install packages
@@ -14,7 +14,7 @@ RUN npm install
 COPY . /app
 
 # Make port 80 available to the world outside this container
-EXPOSE 8090
+EXPOSE 8088
 
 # command to start the app
 CMD node index.js

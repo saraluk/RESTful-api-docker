@@ -1,20 +1,23 @@
 ## Instruction
+
 This is a RESTful web service that runs in a docker container display a collection of record a single record that the corresponds to an ID in JSON form.
 
-### Install docker on your machine
-    you need to create an account in order to download the software.
-    Once installation is done, log in to your docker account
+## Clone repository
 
-### run `docker run hello-world` in terminal
+    with git clone
+    cd to the cloned repository
 
-### cd to the cloned repository
+## Build docker image
 
-### run `docker build -t hello-world .`
+    `docker build -t <imagename> .`
 
-### run `docker run -p 8090:8090 hello-world`
+## Run docker container
 
-    Open [http://localhost:8090/inventory] to view collection of record.
-    Open [http://localhost:8090/inventory/id] (where id is 1 to 5) to view individual record by id
+    port 8088 is given in Dockerfile, so map port 8088 with any available port on your machine
 
-    If port 8090 is already used, you will need to map with another avaiable port (try port 8099)
-    `docker run -p 8090:8099 hello-world`
+    `docker run -p <available-port-on-local-machine>:8088 <imagename>`
+
+## view result
+
+    Open [http://localhost:<available-port-on-local-machine>/] to view collection of record.
+    Open [http://localhost:<available-port-on-local-machine>/id] (where id is 1 to 5) to view individual record by id
