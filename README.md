@@ -4,18 +4,18 @@ This is a RESTful web service that runs in a docker container display a collecti
 
 ## Clone repository
 
-    with git clone
-    cd to the cloned repository
+    //with git clone
+    cd <cloned repository>
 
 ## Build docker image
 
-    `docker build -t <imagename> .`
+    docker build -t <imagename> .
 
 ## Run docker container
 
-    port 8088 is given in Dockerfile, so map port 8088 with any available port on your machine
+    //port 8088 is given in Dockerfile, so map port 8088 with any available port on your machine
 
-    `docker run -p <available-port-on-local-machine>:8088 <imagename>`
+    docker run -p <available-port-on-local-machine>:8088 <imagename>
 
 ## view result
 
