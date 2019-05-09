@@ -12,7 +12,7 @@ This is a RESTful web service that runs in a docker container display a collecti
 
 ## Run docker container
 
-    port 8088 is given in Dockerfile, so map port 8088 with any available port on your machine
+    //port 8088 is given in Dockerfile, so map port 8088 with any available port on your machine
 
     docker run -p <available-port-on-local-machine>:8088 <imagename>
 
