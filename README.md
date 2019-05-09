@@ -16,12 +16,12 @@ This is a RESTful web service that runs in a docker container display a collecti
 
     docker run -p <available-port-on-local-machine>:8088 <imagename>
 
-## view result in web browser
+## View result in web browser
 
     Open [http://localhost:<available-port-on-local-machine>/inventory] to view collection of record.
     Open [http://localhost:<available-port-on-local-machine>/inventory/id] to view individual record by id where id is 1 to 5
 
-## view result in terminal
+## View result in terminal
 
     //Open new terminal and type the following command to view collection of record.
     
