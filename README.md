@@ -19,5 +19,5 @@ This is a RESTful web service that runs in a docker container display a collecti
 
 ## view result
 
-    Open [http://localhost:<available-port-on-local-machine>/] to view collection of record.
-    Open [http://localhost:<available-port-on-local-machine>/id] (where id is 1 to 5) to view individual record by id
+    Open [http://localhost:<available-port-on-local-machine>/inventory] to view collection of record.
+    Open [http://localhost:<available-port-on-local-machine>/inventory/id] (where id is 1 to 5) to view individual record by id
